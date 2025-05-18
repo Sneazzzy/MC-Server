@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MIS HELP PAGE | DIY Corner</title>
+        
+		<style>
+div.container {
+    width: 100%;
+    border: 1px solid white;
+    height: 119%;
+
+    
+    background: linear-gradient(blue 30% ,white, blue);
+
+}
+
+header, footer {
+    padding: 1em;
+    color: black;
+     background: linear-gradient(white);
+    clear: left;
+    text-align: center;
+    border: 3px solid brown;
+font-family: "ravie", Georgia, Serif;
+}
+
+img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+img:hover {
+    border: 1px solid #777;
+}
+
+img img {
+    width: 100%;
+    height: auto;
+}
+
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+	
+    height: 570px;
+    width: 950px;
+ 
+    background: linear-gradient(white, blue); 
+
+}
+
+table, th, td {
+    border: 2px solid brown;
+    font-weight:bold;
+   font-family: "COURIER NEW", Georgia, Serif;
+}
+</style>
+    </head>
+
+<body>
+<div class="container">
+
+        <a href="javascript:history.go(-1)">
+		<img class="img" style="float: right;" src="Images/back.jpg" href="index.html";/>
+        </a>              
+	</div>
+<header>
+     <img src="Images/logo.jpg" alt="MIS HELP PAGE" width="10" height="85" >
+    <h1>SELF-HELP TROUBLESHOOTING GUIDES</h1>
+	<article>
+<center>
+
+<form action="diy.php" method="post">
+<b>
+<table>
+<tr>
+<td align="right">
+	Problem:</b></td><td><input type="text" name="a"></td>
+ <td>Troubleshooting Instructions:</td><td><input type="textarea" name="b"></td>
+  
+</tr>
+</table>
+</b><br>
+<center>
+<input type="submit" value="Enter">
+</center>
+</b>
+</form>
+</center>
+</article>
+	</body>    
+</html>
